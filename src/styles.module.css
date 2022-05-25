@@ -1,0 +1,118 @@
+.app {
+  background-color: #051540;
+  height: 100vh;
+}
+
+/* Banner */
+.banner {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #587eeb;
+  color: white;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  color: white;
+  padding: 2rem 6rem;
+  text-align: center;
+  background-image: url(./Assets/Img/background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100vw;
+}
+
+.title {
+  font-size: 11vh;
+  line-height: 0.75em;
+  font-weight: 900;
+  margin: 10px 0;
+  flex: 0 auto;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.isotipo {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background-color: #263663;
+  margin-bottom: 8px;
+}
+
+.primaryButton,
+.secondaryButton {
+  border-radius: 0.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  width: 35%;
+  font-size: 1.4em;
+  letter-spacing: 2.1px;
+  color: white;
+}
+
+.primaryButton {
+  background-color: #587eeb;
+  border-bottom: 3px solid #3665e7;
+}
+
+.secondaryButton {
+  background-color: #263663;
+  border-bottom: 3px solid #1c284a;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 6rem;
+  background-color: white;
+  position: static;
+}
+
+.logo {
+  width: 10rem;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #292929;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #587eeb;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social svg {
+  width: 2rem;
+  padding: 0.25rem;
+}
