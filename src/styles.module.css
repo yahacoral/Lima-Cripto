@@ -1,10 +1,22 @@
 .app {
-  background-color: #051540;
-  height: 100vh;
+  background-image: url(./Assets/Img/iStock-531000658.jpeg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  /* background-color: #1c284a; */
+  height: 150vh;
+  overflow: auto;
+}
+
+.mainview {
+  margin: 0 6rem;
+  background-color: white;
 }
 
 /* Banner */
 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem 2rem;
   font-weight: 700;
   font-size: 1.15rem;
@@ -14,20 +26,20 @@
   color: white;
 }
 
+.banner img {
+  width: 8rem;
+}
+
 /* Header */
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  min-height: 65vh;
   color: white;
-  padding: 2rem 6rem;
+  padding: 2rem 0;
   text-align: center;
-  background-image: url(./Assets/Img/background.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-size: 100vw;
 }
 
 .title {
@@ -115,4 +127,85 @@
 .social svg {
   width: 2rem;
   padding: 0.25rem;
+}
+
+/* Home View */
+.video {
+  height: calc(100vh - 10.5rem);
+  width: 100%;
+  position: relative;
+  top: -38rem;
+}
+
+.poster {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Assets//Img/lima-cripto.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 10.5rem);
+  text-align: center;
+}
+
+.poster h1 {
+  font-size: 3.8em;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
+  line-height: 0.75em;
+  margin: 10px 0;
+}
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 2rem;
+}
+
+.button svg {
+  width: 7rem;
+  height: 7rem;
+  color: #587eeb;
+  background: white;
+  border-radius: 100%;
+}
+
+.button p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.about {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #292929;
+}
+
+.about h1 {
+  font-size: 3.8em;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 0.75em;
+  margin: 10px 0;
+}
+
+.about p {
+  line-height: 1.1em;
+  font-weight: bold;
+  color: #587eeb;
+  font-size: 1.9em;
+  margin: 1rem 0;
+  width: 80%;
 }
