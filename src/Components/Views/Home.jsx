@@ -1,7 +1,7 @@
 import React from 'react'
+import styles from '../../styles.module.css';
 import Video from "../Video"
 import About from "../About"
-import styles from '../../styles.module.css';
 
 export default function Home() {
   return (

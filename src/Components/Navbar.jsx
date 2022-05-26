@@ -1,17 +1,18 @@
 import React from 'react'
+import styles from '../styles.module.css'
 import { Link } from "react-router-dom";
 import LimaCriptoLogo from "../Assets/Logos/logo.png";
 import { ReactComponent as InstagramIcon } from "../Assets/Icons/instagram.svg";
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
 import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
-import styles from '../styles.module.css'
+import {instagram, linkedin} from "../Constants"
 
 export default function Navbar() {
   return (
     <>
        <div className={styles.navbar}>
         <Link className='active' to="/">
-          <img className={styles.logo} src={LimaCriptoLogo} alt="logo of Lima Cripto" />
+          <img className={styles.logo} src={LimaCriptoLogo} alt="Lima Cripto" />
         </Link>
 
         <div className={styles.menu}>
@@ -32,8 +33,8 @@ export default function Navbar() {
           </Link>
 
           <div className={styles.social}>
-            <a href="https://www.instagram.com/lima.cripto/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
-            <a href="https://www.linkedin.com/company/lima-cripto/" target="_blank" rel="noreferrer"><LinkedinIcon/></a>
+            <a href={instagram} target="_blank" rel="noreferrer"><InstagramIcon/></a>
+            <a href={linkedin} target="_blank" rel="noreferrer"><LinkedinIcon/></a>
             <a href="/" target="_blank" rel="noreferrer"><YoutubeIcon/></a>
           </div>
         </div>
