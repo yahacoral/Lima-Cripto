@@ -2,6 +2,10 @@ import React from 'react'
 import styles from '../../styles.module.css';
 import Video from "../Video"
 import About from "../About"
+import Metrics from '../Metrics';
+import Speakers from '../Speakers';
+import Agenda from "../Agenda";
+import MediaPartners from "../MediaPartners";
 
 export default function Home() {
   return (
@@ -9,15 +13,10 @@ export default function Home() {
       <div className={styles.home}>
         <Video/>
         <About/>
-
-        {/* 
-
-        <div className={styles.speakers}>
-        </div>
-
-        <div className={styles.mediaPartners}>
-        </div> */}
-
+        <Metrics/>
+        <Speakers/>
+        <Agenda/>
+        <MediaPartners/>
       </div>
     </>
   )

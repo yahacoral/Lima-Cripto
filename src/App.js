@@ -4,6 +4,7 @@ import Banner from './Components/Banner';
 import Header from './Components/Header'
 import Navbar from './Components/Navbar';
 import Mainview from './Components/Mainview';
+import Footer from "./Components/Footer";
 import './App.css';
 import styles from './styles.module.css';
 
@@ -15,6 +16,7 @@ function App() {
         <Header/>
         <Navbar/>
         <Mainview/>
+        <Footer/>
       </div>
     </Router>
   );

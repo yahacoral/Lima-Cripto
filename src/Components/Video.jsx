@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styles from '../styles.module.css';
 import { ReactComponent as PlayIcon } from "../Assets/Icons/play.svg";
-import {youtubeVideo, title} from "../Constants"
+import {youtubeVideo, videoTitle} from "../Constants"
 
 export default function Video() {
     const [show, setShow]=useState(false)
@@ -9,7 +9,7 @@ export default function Video() {
     <>
         <div className={styles.video}>
           <div className={styles.poster}>
-            <h1>{title}</h1>
+            <h1>{videoTitle}</h1>
             <button onClick={()=>setShow(true)}>
                 <PlayIcon/>
                 <p>Ver video</p>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles.module.css'
-import LimaCriptoIsotipo from "../Assets/Logos/isotipo.png";
+import LimaCriptoIsotipo from "../Assets/Logos/white-isotipo.png";
 import {mail} from "../Constants"
 
 export default function Header() {
