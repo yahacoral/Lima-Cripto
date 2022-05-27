@@ -7,8 +7,10 @@ export default function About() {
   return (
     <>
         <div className={styles.section}>
-            <h1>La experiencia <br/> BITCONF PERÚ 2022</h1>
-            <h2>{aboutSubtitle}</h2>
+            <span>
+              <h1>La experiencia <br/> BITCONF PERÚ 2022</h1>
+              <h2>{aboutSubtitle}</h2>
+            </span>
             <div className={styles.description}>
               <ImageSlider />
               <span></span>

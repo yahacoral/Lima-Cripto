@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../styles.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Image1 from "../Assets/Img/lima-cripto.jpeg";

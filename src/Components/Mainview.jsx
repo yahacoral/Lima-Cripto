@@ -6,6 +6,7 @@ import FAQ from './Views/FAQ';
 import Press from './Views/Press'
 import Gallery from './Views/Gallery';
 import Contact from './Views/Contact';
+import ChatBot from "./ChatBot"
 
 export default function Mainview() {
   return (
@@ -18,6 +19,7 @@ export default function Mainview() {
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/Contacto" element={<Contact />} />
       </Routes>
+      <ChatBot/>
     </div>
     </>
   )

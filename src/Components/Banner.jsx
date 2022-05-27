@@ -7,8 +7,10 @@ export default function Banner() {
   return (
     <>
         <div className={styles.banner}>
-            <a href="/">Adquiere tus entradas para BITCONF PERÚ en</a> &nbsp;
-            <img src={JoinUsLogo } alt="Join us" />
+            <a href="/">Adquiere tus entradas para BITCONF PERÚ en &nbsp;
+              <img src={JoinUsLogo } alt="Join us" />
+            </a>
+            
         </div>
     </>
   )
