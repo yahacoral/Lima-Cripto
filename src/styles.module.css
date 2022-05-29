@@ -112,7 +112,7 @@
   padding: 1.5rem 0 0.5rem 0;
 }
 
-.menu {
+/* .menu {
   width: 100%;
   display: flex;
   align-items: center;
@@ -120,11 +120,12 @@
   font-weight: 700;
   font-size: 1.1rem;
   color: #292929;
-}
+} */
 
-.menu a:hover,
-.menu a:focus {
+.navbar button:hover,
+.navbar button:focus {
   color: #587eeb;
+  background: none;
 }
 
 .social {

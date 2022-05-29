@@ -4,7 +4,7 @@ import styles from '../styles.module.css'
 import Home from './Views/Home';
 import FAQ from './Views/FAQ';
 import Press from './Views/Press'
-import Gallery from './Views/Gallery';
+import Events from './Views/Events';
 import Contact from './Views/Contact';
 import ChatBot from "./ChatBot"
 
@@ -13,9 +13,9 @@ export default function Mainview() {
     <>
       <div className={styles.mainview}>
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Press" element={<Press />} />
-          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Evento%202022" element={<Home />} />
+          <Route path="/Noticias" element={<Press />} />
+          <Route path="/Eventos" element={<Events />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/Contacto" element={<Contact />} />
       </Routes>
