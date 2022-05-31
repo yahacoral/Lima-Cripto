@@ -13,7 +13,8 @@ export default function Mainview() {
     <>
       <div className={styles.mainview}>
       <Routes>
-          <Route path="/Evento%202022" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="Evento%202022" element={<Home />} />
           <Route path="/Noticias" element={<Press />} />
           <Route path="/Eventos" element={<Events />} />
           <Route path="/FAQ" element={<FAQ />} />
