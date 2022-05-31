@@ -1,5 +1,5 @@
 .app {
-  background-image: url(./Assets/Img/iStock-531000658.jpeg);
+  background-image: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012253/Lima-Cripto/iStock-531000658_copy_mhqn2p.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150vh;
@@ -152,7 +152,7 @@
 
 .poster {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./Assets//Img/lima-cripto-1.jpeg);
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012735/Lima-Cripto/lima-cripto-1-min_hl7lgv.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -270,7 +270,7 @@
 /* Metrics */
 .metrics {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./Assets/Img/iStock-1063897324.jpeg);
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012259/Lima-Cripto/iStock-1063897324_copy_xqbkym.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -530,6 +530,21 @@
   height: 3.5rem;
   background-color: #263663;
   margin-bottom: 8px;
+}
+
+/* Contact */
+.contact{
+  width: 80%;
+  margin-bottom: 4rem;
+  box-shadow: #0000001c 0 4px 10px 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact svg {
+  height: 2rem;
 }
 
 @media (max-width: 1200px) {

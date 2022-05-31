@@ -1,11 +1,6 @@
 import React from 'react';
-import styles from '../styles.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from "../Assets/Img/lima-cripto.jpeg";
-import Image2 from "../Assets/Img/lima-cripto-2.jpeg";
-import Image3 from "../Assets/Img/lima-cripto-3.jpeg";
-import Image4 from "../Assets/Img/lima-cripto-4.jpeg";
 
 export default function ImageSlider() {
  
@@ -15,28 +10,28 @@ export default function ImageSlider() {
             <Carousel.Item interval={1500}>
                 <img
                 className="d-block w-100"
-                src={Image1}
+                src="https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012743/Lima-Cripto/lima-cripto-min_lelya4.jpg"
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item interval={1500}>
                 <img
                 className="d-block w-100"
-                src={Image2}
+                src="https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012733/Lima-Cripto/lima-cripto-2-min_zq8fwg.jpg"
                 alt="Second slide"
                 />
             </Carousel.Item>
             <Carousel.Item interval={1500}>
                 <img
                 className="d-block w-100"
-                src={Image3}
+                src="https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012740/Lima-Cripto/lima-cripto-3-min_fwcv7a.jpg"
                 alt="Third slide"
                 />
             </Carousel.Item>
             <Carousel.Item interval={1500}>
                 <img
                 className="d-block w-100"
-                src={Image4}
+                src="https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012742/Lima-Cripto/lima-cripto-4-min_mgc93y.jpg"
                 alt="Four slide"
                 />
             </Carousel.Item>
