@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles.module.css';
 import ImageSlider from './ImageSlider';
-import {aboutDescription, aboutSubtitle} from "../Constants"
+import {aboutDescription, aboutSubtitle, aboutArray} from "../Constants"
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
               <h2>{aboutSubtitle}</h2>
             </span>
             <div className={styles.description}>
-              <ImageSlider />
+              <ImageSlider imageArray={aboutArray}/>
               <span></span>
                 <p>
                   {aboutDescription} <br/> <br/>
