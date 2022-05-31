@@ -7,46 +7,33 @@ import IconButton from '@mui/material/IconButton';
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
 
 export default function Speakers() {
-  // let cols = '';
-
-  // if(window.innerWidth > 420){
-  //   cols = 2;
-  // } else if(window.innerWidth < 420) {
-  //   cols = 1;
-  // }
 
   const itemData = [
     {
-      img: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
-      title: 'Alexander Vargas',
-      author: '@bkristastucchio',
-      linkedin: 'https://www.linkedin.com/in/yahairacollado/'
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654015536/Lima-Cripto/angelaocando_xwfqig.webp',
+      title: 'Angela Ocando',
+      author: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
     },
     {
-      img: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg',
-      title: 'Sara Quiñones',
-      author: '@rollelflex_graphy726',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654016261/Lima-Cripto/Dania-1.0-852x1024-1_xnildw.jpg',
+      title: 'Dania González',
+      author: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
     },
     {
-      img: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg',
-      title: 'Camera',
-      author: '@helloimnik',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654015864/Lima-Cripto/Monica-taher-perfil_zozgvw.jpg',
+      title: 'Monica Taher',
+      author: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
     },
     {
-      img: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg',
-      title: 'Coffee',
-      author: '@nolanissac',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1548964095-b9a292144866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80',
-      title: 'Hats',
-      author: '@hjrc33',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80',
-      title: 'Honey',
-      author: '@arwinneil',
-    },
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654016151/Lima-Cripto/Marcos-Allende-LACChain_fb4qoz.jpg',
+      title: 'Marcos Allende',
+      author: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    }
+ 
   ];
   
   return (
@@ -57,7 +44,7 @@ export default function Speakers() {
           <h2>Especialistas de primer nivel estarán presentes en este evento</h2>
         </span>
 
-        <ImageList className={styles.imageList} sx={{ width: "80%", overflowY:'hidden'}} rowHeight={350} cols={3} gap={0}>
+        <ImageList className={styles.imageList} sx={{ width: "80%", overflowY:'hidden'}} rowHeight={350} cols={2} gap={0}>
           {itemData.map((item) => (
             <ImageListItem key={item.img}>
               <img

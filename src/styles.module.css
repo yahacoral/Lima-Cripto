@@ -647,10 +647,6 @@
     width: 85%!important;
   }
 
-  .imageList{
-    grid-template-columns: repeat(2, 1fr)!important;
-  }
-
   .description{
     display: block;
     width: 80%;
