@@ -15,12 +15,27 @@ export default function Contact() {
 
         <ul>
           <li>
-            <WhatsappIcon/> Escríbenos al <a href={whatsapp} target="_blank" rel="noreferrer">+51 956 174 788</a>
+            <WhatsappIcon/> &nbsp; Escríbenos al <a href={whatsapp} target="_blank" rel="noreferrer">+51 956 174 788</a>
           </li>
           <li>
-            <MailIcon/>
+            <MailIcon/> &nbsp;
             Envíanos un correo al <a href={mail} target="_blank" rel="noreferrer">hablemos@limacripto.com</a>
           </li>
+        </ul>
+
+        <h1>¿Quieres convertirte en sponsor?</h1>
+
+        <ul>
+          <li>
+            Conoce los beneficios y <a href={mail} target="_blank" rel="noreferrer"> dejános tus datos</a>
+          </li>
+        </ul>
+
+        <h1>Síguenos:</h1>
+
+        <ul>
+          <li>En Instagram como <a href={instagram} target="_blank" rel="noreferrer">@lima.cripto</a></li>
+          <li>En Linkedin como <a href={linkedin} target="_blank" rel="noreferrer">company/lima-cripto</a></li>
         </ul>
 
       </div>

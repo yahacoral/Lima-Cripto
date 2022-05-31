@@ -250,7 +250,6 @@
 }
 
 /* About */
-
 .videoBox{
   height: calc(100vh - 10.5rem);
 }
@@ -297,10 +296,6 @@
 }
 
 /* Footer */
-
-.logoFooter1{
-  display: none;
-}
 .bannerFooter {
   background-image: url("./Assets/Img/white-linen.png");
   background-repeat: no-repeat;
@@ -535,7 +530,8 @@
 /* Contact */
 .contact{
   width: 80%;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
+  padding: 1rem 1.5rem;
   box-shadow: #0000001c 0 4px 10px 2px;
   border-radius: 10px;
   display: flex;
@@ -544,7 +540,32 @@
 }
 
 .contact svg {
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #587eeb;
+}
+
+.contact h1{
+  font-size: 1.5rem !important;
+  width: 60%;
+  margin: 2rem 0 1rem 0;
+}
+
+.contact ul {
+  list-style: none;
+  text-align: left;
+  font-weight: 600;
+  padding: 0;
+}
+
+.contact a{
+  color: #587eeb;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.contact a:hover{
+  color: #587eeb;
 }
 
 @media (max-width: 1200px) {
@@ -783,6 +804,10 @@
 
   .box .primaryButton{
     padding: 0.5rem 1rem;
+  }
+
+  .contact ul {
+    text-align: center;
   }
 
 }
