@@ -21,10 +21,10 @@ import MenuItem from '@mui/material/MenuItem';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#292929',
+      main: '#587eeb',
     },
     secondary: {
-      main: '#587eeb',
+      main: '#292929',
     },
   },
 });
@@ -54,14 +54,14 @@ export default function Navbar() {
           <AppBar position="static" sx={{background:"white", boxShadow:'none'}}>
             <Container maxWidth="xl" >
               <Toolbar disableGutters >
-              <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent:'space-between' } }}>
+              <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent:'space-between'} }}>
                 <IconButton
                   size="large"
                   aria-label="account of current user"
                   aria-controls="menu-appbar"
                   aria-haspopup="true"
                   onClick={handleOpenNavMenu}
-                  color="primary"
+                  color="secondary"
                 >
                 <MenuIcon />
               </IconButton>
@@ -80,13 +80,13 @@ export default function Navbar() {
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{
-                  display: { xs: 'block', md: 'none', },
+                  display: { xs: 'block', md: 'none'}
                 }}
               >
                 {pages.map((page) => (
                   <Link to={page}>
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" >{page}</Typography>
+                    <Typography textAlign="center"  >{page}</Typography>
                   </MenuItem>
                   </Link>
                 ))}
@@ -101,9 +101,10 @@ export default function Navbar() {
               {pages.map((page) => (
                 <Link to={page}>
                 <Button 
+                color={'secondary'}
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, fontWeight:'700', color: 'primary', display: 'block' }}
+                  sx={{ my: 2, fontWeight:'700', display: 'block' }}
                 >
                   {page}
                 </Button>

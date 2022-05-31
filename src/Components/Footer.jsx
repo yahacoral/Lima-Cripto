@@ -21,7 +21,7 @@ export default function Footer() {
               <li><img src={LimaCriptoIsotipo} alt="isotipo" /></li>
               <li>To be confimed, Lima, Perú.</li>
               <li>Octubre 8-9, 2022</li>
-              <li>🟢 ENTRADAS A LA VENTA</li>
+              <li>🟢 ENTRADAS DISPONIBLES</li>
             </ul>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Footer() {
               Contacto
               </Link>
             </div>
-            <img src={ LimaCriptoLogo} alt="Lima" />
+            <img src={ LimaCriptoLogo} alt="Lima" className={styles.logoFooter} />
             <div>
               <p>Síguenos:</p>
               <div className={styles.social}>

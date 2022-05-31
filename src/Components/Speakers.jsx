@@ -7,6 +7,14 @@ import IconButton from '@mui/material/IconButton';
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
 
 export default function Speakers() {
+  // let cols = '';
+
+  // if(window.innerWidth > 420){
+  //   cols = 2;
+  // } else if(window.innerWidth < 420) {
+  //   cols = 1;
+  // }
+
   const itemData = [
     {
       img: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
@@ -39,8 +47,6 @@ export default function Speakers() {
       title: 'Honey',
       author: '@arwinneil',
     },
-  
- 
   ];
   
   return (
@@ -51,7 +57,7 @@ export default function Speakers() {
           <h2>Especialistas de primer nivel estarán presentes en este evento</h2>
         </span>
 
-        <ImageList sx={{ width: "80%", height: "auto" }} cols={3} rowHeight={350}>
+        <ImageList className={styles.imageList} sx={{ width: "80%", overflowY:'hidden'}} rowHeight={350} cols={3} gap={0}>
           {itemData.map((item) => (
             <ImageListItem key={item.img}>
               <img

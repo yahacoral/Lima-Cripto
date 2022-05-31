@@ -6,6 +6,8 @@ import {aboutDescription, aboutSubtitle} from "../Constants"
 export default function About() {
   return (
     <>
+        <div>
+        <div className={styles.videoBox}></div>
         <div className={styles.section}>
             <span>
               <h1>La experiencia <br/> BITCONF PERÚ 2022</h1>
@@ -25,6 +27,7 @@ export default function About() {
 
             <a href="/" target="_blank" rel="noreferrer" className={styles.primaryButton}>Agregar a Calendar</a>
           
+        </div>
         </div>
     </>
   )

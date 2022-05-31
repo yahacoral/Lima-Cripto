@@ -6,6 +6,18 @@ import CloseIcon from '@mui/icons-material/Close';
 import ChatIcon from '@mui/icons-material/Chat';
 import { whatsapp} from '../Constants'
 import LimaCriptoIsotipo from "../Assets/Logos/white-isotipo.png";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#587eeb',
+    },
+    secondary: {
+      main: '#292929',
+    },
+  },
+});
 
 export default function ChatBot() {
   const [show, setShow]=useState(false)
@@ -13,6 +25,7 @@ export default function ChatBot() {
 
   return (
     <>
+     <ThemeProvider theme={theme}>
       <div className={styles.chatbot}>
 
         { show && 
@@ -29,6 +42,7 @@ export default function ChatBot() {
           </Fab>
         </Box>
       </div>  
+      </ThemeProvider>
     </>
   )
 }

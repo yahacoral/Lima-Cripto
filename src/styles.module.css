@@ -2,9 +2,9 @@
   background-image: url(./Assets/Img/iStock-531000658.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #1c284a; */
   height: 150vh;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .mainview {
@@ -40,7 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 75vh;
+  min-height: calc(100vh - 10.5rem);
   color: white;
   padding: 2rem;
   text-align: center;
@@ -57,7 +57,7 @@
 
 .subtitle {
   font-size: 1.25rem;
-  line-height: 2em;
+  line-height: 1.5em;
   font-weight: 700;
 }
 
@@ -74,11 +74,13 @@
   border-radius: 0.5rem;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
   margin: 0.5rem;
-  padding: 0.5rem 1rem;
-  width: 30%;
+  padding:1rem;
+  width: 22rem;
   font-size: 1.4em;
   letter-spacing: 2.1px;
+  line-height: 1rem;
   color: white;
 }
 
@@ -112,16 +114,6 @@
   padding: 1.5rem 0 0.5rem 0;
 }
 
-/* .menu {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #292929;
-} */
-
 .navbar button:hover,
 .navbar button:focus {
   color: #587eeb;
@@ -146,14 +138,15 @@
 
 /* Video Section */
 .video {
+  position: relative;
   max-height: calc(100vh - 10.5rem);
 }
 
 .frame {
   height: calc(100vh - 10.5rem);
   width: 100%;
-  position: relative;
-  top: -39.1rem;
+  position: absolute;
+  top: 0;
   z-index: 3;
 }
 
@@ -168,10 +161,12 @@
   align-items: center;
   height: calc(100vh - 10.5rem);
   text-align: center;
+  position: absolute;
+  top: 0;
 }
 
 .poster h1 {
-  width: 80%;
+  width: 85%;
   font-size: 3.5em;
   font-weight: 900;
   letter-spacing: 0.1rem;
@@ -255,6 +250,11 @@
 }
 
 /* About */
+
+.videoBox{
+  height: calc(100vh - 10.5rem);
+}
+
 .description {
   display: grid;
   grid-template-columns: 1fr 2rem 1fr;
@@ -269,7 +269,6 @@
 
 /* Metrics */
 .metrics {
-  /* background-color: #1c284a; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./Assets/Img/iStock-1063897324.jpeg);
   background-repeat: no-repeat;
@@ -281,6 +280,8 @@
   align-items: center;
   min-height: 50vh;
   text-align: center;
+  padding: 2rem;
+  margin: 0;
 }
 
 .metrics h1 {
@@ -296,6 +297,10 @@
 }
 
 /* Footer */
+
+.logoFooter1{
+  display: none;
+}
 .bannerFooter {
   background-image: url("./Assets/Img/white-linen.png");
   background-repeat: no-repeat;
@@ -303,7 +308,7 @@
   margin: 0 6rem;
   background-color: #587eeb;
   color: white;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .container {
@@ -317,10 +322,11 @@
   text-align: center;
   padding: 0 6rem 4rem 6rem;
   position: relative;
-  bottom: -4rem;
+  bottom: -8rem;
   height: 100%;
   width: 100%;
   background-color: #587eeb;
+  z-index: 2;
 }
 
 .container h1 {
@@ -336,14 +342,18 @@
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  padding-top: 3rem;
+  padding: 2rem 0 0 0 ;
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.15rem;
   font-weight: 700;
   text-align: left;
   letter-spacing: 0.5px;
+}
+
+.container li {
+  padding: 0.5rem 0;
 }
 
 .container img {
@@ -356,6 +366,7 @@
   padding: 6rem 6rem 2rem 6rem;
   background-color: #292929;
   color: white;
+  z-index: 1;
 }
 .containerFooter {
   display: flex;
@@ -382,6 +393,14 @@
   fill: white;
 }
 
+.socialIcon svg:hover{
+  fill: #587eeb;
+}
+
+.link:hover{
+  color: #587eeb;
+}
+
 /* Agenda */
 .instagram {
   text-decoration: underline;
@@ -400,14 +419,14 @@
   box-shadow: #0000001c 0 4px 10px 2px;
   border-radius: 10px;
   margin-top: 2rem;
-  padding: 2rem 4rem 0 4rem;
+  padding: 2rem 2rem 0 2rem;
   height: 30rem;
   overflow: scroll;
 }
 
 .panel h1 {
   color: #587eeb;
-  font-size: 2.8em;
+  font-size: 2.25rem;
   text-align: center;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -423,9 +442,8 @@
 }
 
 .panel li {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 4.5rem 1rem 1fr;
   text-align: start;
   border-bottom: 1px solid rgb(217, 217, 217);
   padding: 1rem 0 2rem;
@@ -451,11 +469,9 @@
 }
 
 .author {
-  display: flex;
-  align-items: center;
   color: rgb(102, 102, 102);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 1.1rem;
 }
 
@@ -470,6 +486,7 @@
 
 .partners img {
   width: 15rem;
+  padding: 0.5rem 1rem;
   filter: grayscale(100%);
 }
 
@@ -513,4 +530,244 @@
   height: 3.5rem;
   background-color: #263663;
   margin-bottom: 8px;
+}
+
+@media (max-width: 1200px) {
+
+  .primaryButton,
+  .secondaryButton {
+  font-size: 1.15rem;
+  width: 20rem;
+  }
+
+  .poster h1, .section h1 {
+    font-size: 3rem;
+  }
+
+  .panel h1 {
+    font-size: 2.25rem;
+  }
+
+  .partners  img{
+    width: 13rem;
+  }
+
+  .container ul {
+    font-size: 1rem;
+  }
+
+  .tabBox{
+    width: 75%!important;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .primaryButton,
+  .secondaryButton {
+  font-size: 1rem;
+  width: 18rem;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .partners {
+    display: block;
+  }
+
+  .metrics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .container{
+    bottom: -4rem;
+  }
+
+  .container h1{
+    font-size: 1.8rem;
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .poster h1{
+    font-size: 2.5rem;
+  }
+
+  .poster button svg {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .tabBox{
+    width: 85%!important;
+  }
+
+  .imageList{
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
+
+  .description{
+    display: block;
+    width: 80%;
+  }
+
+  .description p{
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .section h1{
+    font-size: 2.5rem;
+  }
+
+  .section h2{
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+  .mainview, .navbar, .bannerFooter {
+    margin: 0 3rem;
+  }
+
+  .poster h1{
+    font-size: 2rem;
+  }
+
+  .panel{
+    padding: 1rem;
+  }
+
+  .panel h1{
+    font-size: 1.7rem;
+  }
+
+  .panel h2 {
+    font-size: 1rem;
+  }
+
+  .panel h3 {
+    font-size: 1.5rem;
+  }
+
+  .imageList{
+    grid-template-columns: repeat(1, 1fr)!important;
+    padding: 0 2rem;
+  }
+
+  .container{
+    padding: 0 2rem 3rem 2rem;
+  }
+
+  .logoFooter {
+    display: none;
+  }
+
+  .copyright{
+    padding: 1rem 0;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .panel li div {
+    width: 13rem;
+   }
+
+  .isotipo{
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+  font-size: 1rem;
+  width: 80%;
+  }
+
+  .mainview, .navbar, .bannerFooter {
+    margin: 0 ;
+  }
+
+  .poster button {
+    padding-top: 1rem;
+  }
+
+  .poster button svg {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .poster h1{
+    font-size: 1.5rem;
+  }
+
+  .section h1{
+    font-size: 1.7rem;
+  }
+
+  .section h2{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .metrics {
+    display: block;
+    padding: 2rem 0;
+  }
+
+  .partners{
+    padding: 0 2rem 4rem 2rem;
+  }
+
+  .partners img{
+    width: 10rem;
+    padding: 1rem 0;
+  }
+
+  .container{
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .container h1{
+    font-size: 1.5rem;
+  }
+
+  .imageList{
+    width: 100% !important;
+  }
+
+  .description p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .mainFooter{
+    padding: 6rem 2rem 2rem 2rem;
+  }
+
+  .box{
+    width: 10rem;
+  }
+
+  .box .primaryButton{
+    padding: 0.5rem 1rem;
+  }
+
 }

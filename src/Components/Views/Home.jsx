@@ -17,7 +17,7 @@ export default function Home() {
         <Speakers/>
         <Agenda/>
         <MediaPartners/>
-      </div>
+        </div>
     </>
   )
 }
