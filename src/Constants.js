@@ -67,3 +67,37 @@ export const capitalArray =
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654034378/Lima-Cripto/VICTOR-EGOAVIL_smw9kb.png", alt:"third slide"},
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654034385/Lima-Cripto/VALENTIN-POPESCU_jz4eok.png", alt:"four slide"},
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654034381/Lima-Cripto/RENATO-DE-LA-ROSA_ifycud.png", alt:"five slide"}]
+
+  // Press component 
+
+  export const newsArray = [
+    {
+      logo:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654038892/Lima-Cripto/avatar-barragan-140x140_srudiy.png",
+      title: "Se realizó con mucho éxito la conferencia Lima Cripto Capital",
+      author: "Por Luis Barragán, Alerta Económica",
+      description: "La semana pasada se realizó en Lima la primera conferencia de criptomonedas en el país, la cual contó con la participación de expertos internacionales y la asistencia de más de 500 ejecutivos...",
+      link: "https://alertaeconomica.com/se-realizo-con-mucho-exito-la-conferencia-lima-cripto-capital/",
+      share: "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//alertaeconomica.com/se-realizo-con-mucho-exito-la-conferencia-lima-cripto-capital/&title=Se%20realiz%C3%B3%20con%20mucho%20%C3%A9xito%20la%20conferencia%20Lima%20Cripto%20Capital&summary=&source=",
+      image: "https://res.cloudinary.com/dubbcjkfa/image/upload/v1654037755/Lima-Cripto/limacripto_tmabmp.png"
+    },
+
+    {
+      logo:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654044761/Lima-Cripto/hannah_avatar_48x48_ght21y.jpg",
+      title: "Evento ‘Lima Cripto Capital’, criptomonedas y Blockchain",
+      author: "Por Hannah Pérez, Diario Bitcoin ",
+      description: "Más de 20 especialistas participarán de la conferencia, que se realizará entre el 29 y 30 de abril. Los interesados podrán acudir de forma presencial o virtual. Conozca más del evento a continuación. ",
+      link: "https://www.diariobitcoin.com/eventos/lima-cripto-capital-analizara-uso-de-criptomonedas-y-blockchain-en-peru/",
+      share: "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.diariobitcoin.com/eventos/lima-cripto-capital-analizara-uso-de-criptomonedas-y-blockchain-en-peru/&title=Evento%20%E2%80%98Lima%20Cripto%20Capital%E2%80%99%20reunir%C3%A1%20a%20expertos%20para%20analizar%20uso%20de%20criptomonedas%20y%20Blockchain%20en%20Per%C3%BA%20y%20Latinoam%C3%A9rica&summary=&source=",
+      image: "https://res.cloudinary.com/dubbcjkfa/image/upload/v1654044684/Lima-Cripto/lima-crpto-capital-min_cme9yi.jpg"
+    },
+
+    {
+      logo:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654045483/Lima-Cripto/32_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hMjBiNzk1ODk1NDQ0OGZmY2QyZjg3NGU1ZDlkYjE5Zi5qcGc_ptjqjd.jpg",
+      title: "Expertos se reúnen para analizar el uso de blockchain",
+      author: "Por César Patiño Burgos, Cointelegraph ",
+      description: "Actualmente, hay un gran interés en organizar y asistir a eventos sobre la tecnología blockchain y otros desarrollos del sector. A finales del mes, el 29 y 30 de abril se realizará la conferencia Lima Cripto Capital...",
+      link: "https://es.cointelegraph.com/news/experts-from-around-the-world-gather-in-lima-to-discuss-the-use-of-blockchain-and-the-use-case-for-a-digital-currency-for-peru",
+      share: "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//es.cointelegraph.com/news/experts-from-around-the-world-gather-in-lima-to-discuss-the-use-of-blockchain-and-the-use-case-for-a-digital-currency-for-peru&title=Expertos%20de%20todo%20el%20mundo%20se%20re%C3%BAnen%20en%20Lima%20para%20analizar%20el%20uso%20de%20blockchain%20y%20el%20caso%20de%20uso%20de%20una%20moneda%20digital%20para%20el%20Per%C3%BA&summary=&source=",
+      image: "https://res.cloudinary.com/dubbcjkfa/image/upload/v1654045550/Lima-Cripto/648eb30e51fd34440b7f495e19ddf259_hjcyrn.jpg"
+    }
+  ]

@@ -572,7 +572,6 @@
 }
 
 /* Events */
-
 .bannerEvents{
   display: flex;
   flex-direction: column;
@@ -621,6 +620,24 @@
 
 .events img {
   width: 10rem;
+}
+
+/* Press */
+.press{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 4rem 2rem;
+}
+
+.cardHeader {
+min-height: 8rem;
+max-height: 10rem;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
 }
 
 @media (max-width: 1200px) {
@@ -714,6 +731,11 @@
   .mainFooter{
     padding:  4.5rem 4rem  2rem 4rem ;
   }
+
+  .press {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -776,6 +798,11 @@
 
   .events{
     display: block;
+  }
+
+  .press{
+    display: flex;
+    flex-direction: column;
   }
 }
 
