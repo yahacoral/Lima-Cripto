@@ -1,5 +1,5 @@
 .app {
-  background-image: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012253/Lima-Cripto/iStock-531000658_copy_mhqn2p.jpg);
+  background-image: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654098616/Lima-Cripto/iStock-531000658_copy_lwb96d.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150vh;
@@ -395,18 +395,18 @@
   fill: #587eeb;
 }
 
-.link:hover{
+.navlink:hover{
   color: #587eeb;
 }
 
 /* Agenda */
-.instagram {
+.link {
   text-decoration: underline;
   cursor: pointer;
   color: #587eeb;
 }
 
-.instagram:hover {
+.link:hover {
   color: #587eeb;
 }
 .tabs {

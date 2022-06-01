@@ -29,16 +29,16 @@ export default function Footer() {
         <div  className={styles.mainFooter}>
           <div className={styles.containerFooter}>
             <div className={styles.menuFooter}>
-              <Link className={styles.link} to="/press">
+              <Link className={styles.navlink} to="/press">
               Noticias
               </Link>
-              <Link className={styles.link} to="/gallery">
+              <Link className={styles.navlink} to="/gallery">
               Galería
               </Link>
-              <Link className={styles.link} to="/FAQ">
+              <Link className={styles.navlink} to="/FAQ">
               FAQ
               </Link>
-              <Link className={styles.link} to="/contact">
+              <Link className={styles.navlink} to="/contact">
               Contacto
               </Link>
             </div>
