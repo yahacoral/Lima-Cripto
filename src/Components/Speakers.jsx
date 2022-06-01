@@ -10,25 +10,25 @@ export default function Speakers() {
 
   const itemData = [
     {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654015536/Lima-Cripto/angelaocando_xwfqig.webp',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
       title: 'Angela Ocando',
       author: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
       linkedin: 'https://www.linkedin.com/in/angelaocando/'
     },
     {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654016261/Lima-Cripto/Dania-1.0-852x1024-1_xnildw.jpg',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
       title: 'Dania González',
       author: 'Diputada de la República de El Salvador',
       linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
     },
     {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654015864/Lima-Cripto/Monica-taher-perfil_zozgvw.jpg',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
       title: 'Monica Taher',
       author: 'Asesora de Tecnología y Finanzas',
       linkedin: 'https://www.linkedin.com/in/monicataher/'
     },
     {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654016151/Lima-Cripto/Marcos-Allende-LACChain_fb4qoz.jpg',
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
       title: 'Marcos Allende',
       author: 'Líder Técnico LACChain',
       linkedin: 'https://www.linkedin.com/in/marcosallendel/'
