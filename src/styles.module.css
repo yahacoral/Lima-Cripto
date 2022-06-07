@@ -1,16 +1,16 @@
 .app {
-  background-image: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654098616/Lima-Cripto/iStock-531000658_copy_lwb96d.jpg);
-  background-repeat: no-repeat;
+  background: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654098616/Lima-Cripto/iStock-531000658_copy_lwb96d.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 150vh;
-  /* overflow-y: auto; */
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .mainview {
   margin: 0 6rem;
   background-color: white;
-  overflow: hidden;
 }
 
 /* Banner */
@@ -336,7 +336,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 6rem 4rem 6rem;
+  padding: 0 6rem 6rem 6rem;
   position: relative;
   bottom: -8rem;
   height: 100%;
