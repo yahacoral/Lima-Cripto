@@ -25,7 +25,7 @@ export default function About() {
                 </p>
             </div>
 
-            <a href="/" target="_blank" rel="noreferrer" className={styles.primaryButton}>Agregar a Calendar</a>
+            <a href="/Agenda" className={styles.primaryButton}>Ver agenda</a>
           
         </div>
         </div>
