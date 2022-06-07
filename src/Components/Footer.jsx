@@ -16,7 +16,7 @@ export default function Footer() {
           <div className={styles.container}>
             <h1>¡Únete al evento más grande <br/>
             de criptomonedas en el Perú!</h1>
-            <a href="/" target="_blank" rel="noreferrer" className={styles.secondaryButton}>OBTENER ENTRADAS</a>
+            <a href="/" target="_blank" rel="noreferrer" className={styles.secondaryButton}>COMPRAR ENTRADAS</a>
             <ul>
               <li><img src={LimaCriptoIsotipo} alt="isotipo" /></li>
               <li>To be confimed, Lima, Perú.</li>
