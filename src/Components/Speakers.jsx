@@ -45,7 +45,7 @@ export default function Speakers() {
           ))}
         </ImageList>
 
-        <a href="/Speakers" className={styles.primaryButton}>Ver todos los speakers</a>
+        <a href="/Speakers" className={styles.primaryButton}>Ver más speakers</a>
         
       </div>
     </>
