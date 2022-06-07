@@ -11,7 +11,7 @@ export default function Header() {
             <h1 className={styles.title}>BITCONF PERÚ <br/>2022</h1>
             <h2 className={styles.subtitle}>1era Edición | 8-9 Octubre</h2>
             <a href="/" target="_blank" rel="noreferrer" className={styles.primaryButton}>Comprar entradas</a>
-            <a href={mail} target="_blank" rel="noreferrer" className={styles.secondaryButton}>Solicitar información</a>
+            <a href={mail} target="_blank" rel="noreferrer" className={styles.secondaryButton}>Más información</a>
         </div>
     </>
   )
