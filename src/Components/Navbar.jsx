@@ -6,7 +6,7 @@ import LimaCriptoLogo from "../Assets/Logos/logo.png";
 import tickets from "../Assets/Img/ENTRADAS.png"
 import { ReactComponent as InstagramIcon } from "../Assets/Icons/instagram.svg";
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
-import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
+// import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
 import {instagram, linkedin} from "../Constants"
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -125,7 +125,7 @@ export default function Navbar() {
               <div className={styles.social}>
                 <a href={instagram} target="_blank" rel="noreferrer"><InstagramIcon/></a>
                 <a href={linkedin} target="_blank" rel="noreferrer"><LinkedinIcon/></a>
-                <a href="/" target="_blank" rel="noreferrer"><YoutubeIcon/></a>
+                {/* <a href="/" target="_blank" rel="noreferrer"><YoutubeIcon/></a> */}
               </div>
             </Box>
 
@@ -189,7 +189,7 @@ export default function Navbar() {
               <div className={styles.social}>
                 <a href={instagram} target="_blank" rel="noreferrer"><InstagramIcon/></a>
                <a href={linkedin} target="_blank" rel="noreferrer"><LinkedinIcon/></a>
-               <a href="/" target="_blank" rel="noreferrer"><YoutubeIcon/></a>
+               {/* <a href="/" target="_blank" rel="noreferrer"><YoutubeIcon/></a> */}
             </div>
             </Box>
           </Toolbar>
