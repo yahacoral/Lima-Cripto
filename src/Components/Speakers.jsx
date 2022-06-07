@@ -32,13 +32,37 @@ export default function Speakers() {
       title: 'Marcos Allende',
       author: 'Líder Técnico LACChain',
       linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
+      title: 'Angela Ocando',
+      author: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
+      title: 'Dania González',
+      author: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
+      title: 'Monica Taher',
+      author: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
+      title: 'Marcos Allende',
+      author: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
     }
  
   ];
   
   return (
     <>
-      <div className={styles.section}>
+      <div className={styles.section} id={styles.speakers}>
         <span>
           <h1>Speakers</h1>
           <h2>Especialistas de primer nivel estarán presentes en este evento</h2>
@@ -71,6 +95,8 @@ export default function Speakers() {
             </ImageListItem>
           ))}
         </ImageList>
+
+        <a href="/Speakers" className={styles.primaryButton}>Ver todos los speakers</a>
         
       </div>
     </>

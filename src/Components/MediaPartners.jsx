@@ -9,8 +9,8 @@ export default function MediaPartners() {
     <>
       <div className={styles.section}>
        <span>
-          <h1>Media Partners</h1>
-          <h2>Bitconf Perú 2022 cuenta con el respaldo de medios referentes en el ecosistema Bitcon.</h2>
+          <h1>Con el apoyo de</h1>
+          {/* <h2>Bitconf Perú 2022 cuenta con el respaldo de medios referentes en el ecosistema Bitcon.</h2> */}
        </span>
         <div className={styles.partners}>
           <img src={beInCripto} alt="" />

@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../styles.module.css';
-import {instagram} from "../Constants"
-import Tabs from "../Components/Tabs"
+import styles from '../../styles.module.css';
+import {instagram} from "../../Constants"
+import Tabs from "../Tabs"
 
 export default  function Agenda() {
 

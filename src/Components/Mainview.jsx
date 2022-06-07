@@ -2,6 +2,9 @@ import React from 'react';
 import { Routes, Route} from "react-router-dom";
 import styles from '../styles.module.css'
 import Home from './Views/Home';
+import Agenda from "./Views/Agenda"
+import AllSpeakers from "./Views/AllSpeakers"
+import Sponsors from "./Views/Sponsors"
 import FAQ from './Views/FAQ';
 import Press from './Views/Press'
 import Events from './Views/Events';
@@ -14,10 +17,13 @@ export default function Mainview() {
       <div className={styles.mainview}>
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="Evento%202022" element={<Home />} />
+          <Route path="Sobre%20el%20evento" element={<Home />} />
+          <Route path="/Agenda" element={<Agenda />} />
+          <Route path="/Speakers" element={<AllSpeakers />} />
+          <Route path="/Sponsors" element={<Sponsors />} />
           <Route path="/Noticias" element={<Press />} />
-          <Route path="/Eventos" element={<Events />} />
-          <Route path="/FAQ" element={<FAQ />} />
+          <Route path="/Eventos%20Pasados" element={<Events />} />
+          <Route path="/FAQs" element={<FAQ />} />
           <Route path="/Contacto" element={<Contact />} />
       </Routes>
       <ChatBot/>

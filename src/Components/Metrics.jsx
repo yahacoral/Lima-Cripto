@@ -10,7 +10,7 @@ export default function Metrics() {
                 <p>ASISTENTES</p>
             </li>
             <li>
-                <h1>+20</h1>
+                <h1>+50</h1>
                 <p>SPEAKERS</p>
             </li>
             <li>
@@ -18,8 +18,8 @@ export default function Metrics() {
                 <p>HORAS DE CONTENIDO</p>
             </li>
             <li>
-                <h1>+5</h1>
-                <p>MEDIA PATNERS</p>
+                <h1>+4</h1>
+                <p>SPONSORS</p>
             </li>
         </ul>
     </>
