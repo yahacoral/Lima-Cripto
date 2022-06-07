@@ -5,60 +5,9 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
+import {itemData} from "../Constants"
 
 export default function Speakers() {
-
-  const itemData = [
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
-      title: 'Angela Ocando',
-      author: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
-      linkedin: 'https://www.linkedin.com/in/angelaocando/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
-      title: 'Dania González',
-      author: 'Diputada de la República de El Salvador',
-      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
-      title: 'Monica Taher',
-      author: 'Asesora de Tecnología y Finanzas',
-      linkedin: 'https://www.linkedin.com/in/monicataher/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
-      title: 'Marcos Allende',
-      author: 'Líder Técnico LACChain',
-      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
-      title: 'Angela Ocando',
-      author: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
-      linkedin: 'https://www.linkedin.com/in/angelaocando/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
-      title: 'Dania González',
-      author: 'Diputada de la República de El Salvador',
-      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
-      title: 'Monica Taher',
-      author: 'Asesora de Tecnología y Finanzas',
-      linkedin: 'https://www.linkedin.com/in/monicataher/'
-    },
-    {
-      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
-      title: 'Marcos Allende',
-      author: 'Líder Técnico LACChain',
-      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
-    }
- 
-  ];
   
   return (
     <>
@@ -74,13 +23,13 @@ export default function Speakers() {
               <img
                 src={`${item.img}?h=350&fit=crop&auto=format`}
                 srcSet={`${item.img}?w=300&h=350&fit=crop&auto=format&dpr=2 2x`}
-                alt={item.title}
+                alt={item.name}
                 loading="lazy"
               />
               <ImageListItemBar
                 
-                title={item.title}
-                subtitle={item.author}
+                title={item.name}
+                subtitle={item.role}
                 position="bottom"
                 actionIcon={
                   <IconButton

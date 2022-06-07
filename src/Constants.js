@@ -102,3 +102,110 @@ export const capitalArray =
       image: "https://res.cloudinary.com/dubbcjkfa/image/upload/v1654045550/Lima-Cripto/648eb30e51fd34440b7f495e19ddf259_hjcyrn.jpg"
     }
   ]
+
+  // Speakers Section in Home View
+  export const itemData = [
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
+      name: 'Angela Ocando',
+      role: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
+      name: 'Dania González',
+      role: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
+      name: 'Monica Taher',
+      role: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
+      name: 'Marcos Allende',
+      role: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
+      name: 'Angela Ocando',
+      role: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
+      name: 'Dania González',
+      role: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
+      name: 'Monica Taher',
+      role: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
+      name: 'Marcos Allende',
+      role: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    }
+ 
+  ];
+
+  // Speakers View
+
+  export const speakerList = [
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
+      name: 'Angela Ocando',
+      role: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
+      name: 'Dania González',
+      role: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
+      name: 'Monica Taher',
+      role: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
+      name: 'Marcos Allende',
+      role: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
+      name: 'Angela Ocando',
+      role: 'Directora de la Escuela de Blockchain y Criptomonedas en Platzi',
+      linkedin: 'https://www.linkedin.com/in/angelaocando/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100534/Lima-Cripto/Dania_x2bcyc.jpg',
+      name: 'Dania González',
+      role: 'Diputada de la República de El Salvador',
+      linkedin: 'https://www.linkedin.com/in/daniagonzalezsv/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100403/Lima-Cripto/Monica-taher_wegw2d.jpg',
+      name: 'Monica Taher',
+      role: 'Asesora de Tecnología y Finanzas',
+      linkedin: 'https://www.linkedin.com/in/monicataher/'
+    },
+    {
+      img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100470/Lima-Cripto/Marcos-Allende_zznytq.jpg',
+      name: 'Marcos Allende',
+      role: 'Líder Técnico LACChain',
+      linkedin: 'https://www.linkedin.com/in/marcosallendel/'
+    }
+ 
+  ];
