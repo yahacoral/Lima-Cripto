@@ -1,26 +1,25 @@
 import React from 'react'
 import styles from '../styles.module.css';
+import CountUp from "react-countup";
+import VisibilitySensor from 'react-visibility-sensor';
+import {counterArray} from "../Constants"
 
 export default function Metrics() {
   return (
     <>
         <ul className={styles.metrics}>
+        {counterArray.map((counter) => (
             <li>
-                <h1>+200</h1>
-                <p>ASISTENTES</p>
-            </li>
-            <li>
-                <h1>+50</h1>
-                <p>SPEAKERS</p>
-            </li>
-            <li>
-                <h1>+30</h1>
-                <p>HORAS DE CONTENIDO</p>
-            </li>
-            <li>
-                <h1>+10</h1>
-                <p>SPONSORS</p>
-            </li>
+            <CountUp end={counter.number} redraw={true} prefix="+">
+                {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                        <p ref={countUpRef} />
+                    </VisibilitySensor>
+                )}
+            </CountUp>
+                <h4>{counter.title}</h4>
+                </li>
+                ))}
         </ul>
     </>
   )

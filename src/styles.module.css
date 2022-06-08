@@ -304,16 +304,17 @@
   margin: 0;
 }
 
-.metrics h1 {
+.metrics p {
   font-weight: 700;
   font-size: 5rem;
   margin: 0;
 }
 
-.metrics p {
+.metrics h4 {
   font-weight: 600;
   font-size: 1.25rem;
   margin: 0;
+  text-transform: uppercase;
 }
 
 /* Footer */

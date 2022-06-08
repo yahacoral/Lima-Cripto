@@ -30,6 +30,14 @@ export const aboutArray =
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654099868/Lima-Cripto/lima-cripto-3_hfoaob.jpg", alt:"third slide"}
 ]
 
+// Metrics Component
+export const counterArray = [
+  {number: 100, title: "Asistentes"}, 
+  {number: 50, title: "Speakers"}, 
+  {number: 30, title: "Horas de Contenido"}, 
+  {number: 10, title: "Sponsors"}, 
+]
+
 
 // Agenda Component
 export const firstDayArray = [
