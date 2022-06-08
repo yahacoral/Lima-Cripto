@@ -10,14 +10,31 @@ export default function MediaPartners() {
       <div className={styles.section}>
        <span>
           <h1>Con el apoyo de</h1>
-          {/* <h2>Bitconf Perú 2022 cuenta con el respaldo de medios referentes en el ecosistema Bitcon.</h2> */}
        </span>
-        <div className={styles.partners}>
-          <img src={beInCripto} alt="" />
-          <img src={cointelegraph } alt="" />
-          <img src={diarioBitcoin} alt="" />
-        </div>
+
+       <div className={styles.partnersBox}>
+        <div className={styles.partnersContainer }>
+          <h2>Co-Organizadores</h2>
+          <div className={styles.partners}>
+            <img src={beInCripto} alt="" />
+            <img src={cointelegraph } alt="" />
+            <img src={diarioBitcoin} alt="" />
+          </div>
+          </div>
+
+          <div className={styles.partnersContainer }>
+          <h2>Media Partners</h2>
+          <div className={styles.partners}>
+            <img src={beInCripto} alt="" />
+            <img src={cointelegraph } alt="" />
+            <img src={diarioBitcoin} alt="" />
+          </div>
+          </div>
+       </div>
+
+        <a href="/Sponsors" target="_blank" rel="noreferrer" className={styles.primaryButton}>Ver Sponsors</a>
       </div>
+  
 
     </>
   )

@@ -18,7 +18,7 @@ export default function Metrics() {
                 <p>HORAS DE CONTENIDO</p>
             </li>
             <li>
-                <h1>+4</h1>
+                <h1>+10</h1>
                 <p>SPONSORS</p>
             </li>
         </ul>

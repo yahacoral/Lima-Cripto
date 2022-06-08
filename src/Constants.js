@@ -1,3 +1,9 @@
+import BitcoinMotivLogo from "./Assets/Img/Motiv_Final_logo_Bitcoin.png"
+import Globant from "./Assets/Img/Globant.png"
+import LetsBit from "./Assets/Img/letsbit.png"
+import GoldenCapitalFx from "./Assets/Img/Golden-Capital-Fx.png"
+import AgenteBTC from "./Assets/Img/agente-btc.png"
+
 // URLS
 export const youtubeVideo =
   "https://www.youtube.com/embed/s7x_0htpM9M";
@@ -209,3 +215,13 @@ export const capitalArray =
     }
  
   ];
+
+  // Sponsors
+  export const BitcoinMotiv = BitcoinMotivLogo
+
+  export const bitcoinSponsors = [
+    {image: LetsBit, alt:"LetsBit"}, 
+    {image: Globant, alt:"Globant"}, 
+    {image: GoldenCapitalFx, alt:"GoldenCapitalFx"},
+    {image: AgenteBTC, alt:"AgenteBTC"}
+  ]

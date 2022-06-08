@@ -493,12 +493,26 @@
 }
 
 /* Media Partners */
+.partnersBox{
+  background-color: #F4F3EE;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+.partnersContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
 .partners {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 2rem 2rem 6rem 2rem;
 }
 
 .partners img {
@@ -685,6 +699,80 @@ max-height: 10rem;
   padding: 4rem 6rem;
 }
 
+/* Sponsors */
+.titleSponsor{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1rem 2rem 4rem 2rem;
+}
+
+.titleSponsor h3{
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.titleSponsor img{
+  width: 14rem;
+  padding-top: 1rem;
+}
+
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #587eeb;
+  padding: 4rem 0;
+}
+
+.secondarySponsor{
+  margin: 0 4rem;
+  background-color: white;
+}
+
+.secondarySponsor h1{
+  background-color: #292929;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.secondarySponsor span{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem;
+}
+
+.secondarySponsor span img{
+  width: 65%;
+  margin: 0 auto;
+  padding: 2rem  1rem;
+}
+
+#bitcoinSponsors h1, #bitcoinSponsors{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#satoshiSponsors{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#becomeSponsor h2{
+  padding-bottom: 1rem;
+}
+
+#becomeSponsor .secondaryButton{
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 1200px) {
 
   .primaryButton,
@@ -791,6 +879,14 @@ max-height: 10rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 180px);
   }
+
+  .secondarySponsor h1{
+    font-size: 1.5rem;
+  }
+
+  .secondarySponsor span img{
+    width: 85%;
+  }
 }
 
 
@@ -868,6 +964,20 @@ max-height: 10rem;
   .speakerList{
     padding: 2rem 1rem;
     grid-template-rows: repeat(8, 250px);
+  }
+
+  .sponsors{
+    padding: 2rem 0;
+  }
+
+  .secondarySponsor{
+    margin: 0 2rem;}
+
+  .secondarySponsor span{
+    padding: 1rem;
+  }
+  .secondarySponsor span img{
+    width: 100%;
   }
 }
 
