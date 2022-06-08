@@ -6,7 +6,7 @@ import AgenteBTC from "./Assets/Img/agente-btc.png"
 
 // URLS
 export const youtubeVideo =
-  "https://www.youtube.com/embed/s7x_0htpM9M";
+  "https://www.youtube.com/embed/s7x_0htpM9M?autoplay=1&mute=1";
 
 export const instagram = "https://www.instagram.com/lima.cripto/"
 
