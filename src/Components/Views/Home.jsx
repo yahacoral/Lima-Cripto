@@ -4,7 +4,7 @@ import Video from "../Video"
 import About from "../About"
 import Metrics from '../Metrics';
 import Speakers from '../Speakers';
-import MediaPartners from "../MediaPartners";
+import Sponsors from "../Sponsors";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <About/>
         <Metrics/>
         <Speakers/>
-        <MediaPartners/>
+        <Sponsors/>
         </div>
     </>
   )

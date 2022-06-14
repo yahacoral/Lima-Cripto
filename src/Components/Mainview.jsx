@@ -4,7 +4,7 @@ import styles from '../styles.module.css'
 import Home from './Views/Home';
 import Agenda from "./Views/Agenda"
 import AllSpeakers from "./Views/AllSpeakers"
-import Sponsors from "./Views/Sponsors"
+import AllSponsors from "./Views/AllSponsors"
 import FAQ from './Views/FAQ';
 import Press from './Views/Press'
 import Events from './Views/Events';
@@ -20,7 +20,7 @@ export default function Mainview() {
           <Route path="Sobre%20el%20evento" element={<Home />} />
           <Route path="/Agenda" element={<Agenda />} />
           <Route path="/Speakers" element={<AllSpeakers />} />
-          <Route path="/Sponsors" element={<Sponsors />} />
+          <Route path="/Sponsors" element={<AllSponsors />} />
           <Route path="/Noticias" element={<Press />} />
           <Route path="/Eventos%20Pasados" element={<Events />} />
           <Route path="/FAQs" element={<FAQ />} />

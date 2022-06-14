@@ -3,6 +3,9 @@ import Globant from "./Assets/Img/Globant.png"
 import LetsBit from "./Assets/Img/letsbit.png"
 import GoldenCapitalFx from "./Assets/Img/Golden-Capital-Fx.png"
 import AgenteBTC from "./Assets/Img/agente-btc.png"
+import beInCripto from "./Assets/Img/beInCripto.png"
+import cointelegraph from "./Assets/Img/cointelegraph.png"
+import diarioBitcoin from "./Assets/Img/diarioBitcoin.png"
 
 // URLS
 export const youtubeVideo =
@@ -69,7 +72,7 @@ export const secondDayArray = [
 
 ]
 
-// Events components
+// Events View
 export const capitalArray = 
   [{url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654101048/Lima-Cripto/278197915_1150916508992418_6269388733440744189_p0cscx.jpg", alt:"first slide"},
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654101207/Lima-Cripto/278030024_1652659098428570_4561630751351052320_xmbbir.jpg", alt:"second slide"},
@@ -83,7 +86,7 @@ export const capitalArray =
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654101586/Lima-Cripto/VALENTIN-POPESCU_mzo4q4.png", alt:"four slide"},
   {url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654101580/Lima-Cripto/RENATO-DE-LA-ROSA_yzszcx.png", alt:"five slide"}]
 
-  // Press component 
+  // Press View 
 
   export const newsArray = [
     {
@@ -117,7 +120,7 @@ export const capitalArray =
     }
   ]
 
-  // Speakers Section in Home View
+  // Speakers Component
   export const itemData = [
     {
       img: 'https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100282/Lima-Cripto/angelaocando_dcfsj0.webp',
@@ -224,7 +227,14 @@ export const capitalArray =
  
   ];
 
-  // Sponsors
+  // Sponsors Component
+export const mediaPartners = [
+{image:beInCripto , alt: "be In Cripto"},
+{image:cointelegraph, alt: "cointelegraph"},
+{image:diarioBitcoin, alt: "diario Bitcoin"}
+]
+
+  // Sponsors Categories
   export const BitcoinMotiv = BitcoinMotivLogo
 
   export const bitcoinSponsors = [
