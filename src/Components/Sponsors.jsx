@@ -18,7 +18,7 @@ export default function Sponsors() {
        <div className={styles.section}>
           <span>
             <h1>Con el apoyo de</h1>
-            <h2>Bitconf Media Partners 2022</h2>
+            {/* <h2>Bitconf Media Partners 2022</h2> */}
           </span>
           <div className={styles.partners}>
             {mediaPartners.map((mediaPartner) => (
