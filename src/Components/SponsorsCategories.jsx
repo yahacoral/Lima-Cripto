@@ -21,7 +21,7 @@ export default function SponsorsCategories() {
       </div>
 
       <div className={styles.secondarySponsor}>
-        <h1>Ethererum Sponsor</h1>
+        <h1>Ethereum Sponsor</h1>
         <span>
         {bitcoinSponsors.map((sponsor) => (
           <img src={sponsor.image} alt={sponsor.alt} />
