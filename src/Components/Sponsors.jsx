@@ -15,18 +15,28 @@ export default function Sponsors() {
 
       <SponsorsCategories/>
       
-       <div className={styles.section}>
-          <span>
-            <h1>Con el apoyo de</h1>
-            {/* <h2>Bitconf Media Partners 2022</h2> */}
-          </span>
-          <div className={styles.partners}>
-            {mediaPartners.map((mediaPartner) => (
-            <img src={mediaPartner.image} alt={mediaPartner.alt} />
-            ))}
+       <div className={styles.section} id={styles.partnersContainer}>
+          <div className={styles.partnersBox}>
+            <span>
+              <h1>Con el apoyo de</h1>
+            </span>
+            <div className={styles.partners}>
+              {mediaPartners.map((mediaPartner) => (
+              <img src={mediaPartner.image} alt={mediaPartner.alt} />
+              ))}
+            </div>
           </div>
 
-          <a href="/Speakers" target="_blank" rel="noreferrer" className={styles.primaryButton}>¿Quieres ser Sponsor?</a>
+          <div className={styles.partnersBox}>
+            <span>
+              <h1>Media Partners</h1>
+            </span>
+            <div className={styles.partners}>
+              {mediaPartners.map((mediaPartner) => (
+              <img src={mediaPartner.image} alt={mediaPartner.alt} />
+              ))}
+            </div>
+          </div>
       </div>
     </>
   )
