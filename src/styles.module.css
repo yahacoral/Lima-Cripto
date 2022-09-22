@@ -195,7 +195,7 @@
 }
 
 .poster {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654099694/Lima-Cripto/lima-cripto-1_uqdbor.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -315,7 +315,7 @@
 
 /* Metrics */
 .metrics {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,15 +458,44 @@
   color: #0078c5;
 }
 
+/* All Categories */
+.bannerCategory{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2rem 3rem;
+}
+
+ .bannerCategory h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 0.75em;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.bannerCategory p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  background-color: #0078c5;
+  width: fit-content;
+}
+
 /* Agenda */
 .link {
   text-decoration: underline;
   cursor: pointer;
-  color: #fa6300;
 }
 
 .link:hover {
-  color: #fa6300;
+  color: white;
 }
 .tabs {
   width: 80%;
@@ -600,7 +629,6 @@
 
 .contact ul {
   list-style: none;
-  text-align: left;
   font-weight: 600;
   padding: 0;
 }
@@ -616,33 +644,6 @@
 }
 
 /* Events */
-.bannerEvents{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 30vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  padding: 2rem 3rem ;
-}
-
-.bannerEvents h1, .bannerAllSpeakers h1{
-  font-size: 3rem;
-  text-transform: uppercase;
-  line-height: 0.75em;
-  font-weight: 900;
-  letter-spacing: 3px;
-}
-
-.bannerEvents p, .bannerAllSpeakers p{
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin: 0;
-}
-
 .events{
   display: grid;
   grid-template-columns: 1fr 1.5rem 1fr;
@@ -689,21 +690,6 @@ max-height: 10rem;
 }
 
 /* Speakers View */
-.bannerAllSpeakers{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 30vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  padding: 2rem 3rem ;
-  text-align: center;
-}
-
 .speakerList{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -749,7 +735,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 1rem 2rem 4rem 2rem;
+padding: 4rem 2rem;
 }
 
 .titleSponsor h3{

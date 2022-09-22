@@ -6,17 +6,13 @@ import SponsorsCategories from '../SponsorsCategories'
 export default function AllSponsors() {
   return (
     <>
-      <div className={styles.section}>
-        <span>
+      <div className={styles.bannerCategory}>
           <h1>Sponsors</h1>
-          <h2>
-            Bitconf Perú 2022 es respaldado por empresas y proyectos que están construyendo Bitcoin activamente y comprometidos con el avance de su ecosistema.
-          </h2>
-        </span>
+          <p>Empresas comprometidas con el avance del ecosistema Bitcoin.</p>
       </div>
 
       <SponsorsCategories/>
-
+      
       <div className={styles.section} id={styles.becomeSponsor}>
         <span>
           <h2>¿Quieres ser Sponsor?</h2>

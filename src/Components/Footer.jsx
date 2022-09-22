@@ -24,8 +24,9 @@ export default function Footer() {
             <a href="/" target="_blank" rel="noreferrer" className={styles.primaryButton} style={{marginBottom:"2rem"}}>COMPRAR ENTRADAS</a>
             <ul>
               <li><img src={LimaCriptoIsotipo} alt="isotipo" /></li>
-              <li>To be confimed, Lima, Perú.</li>
-              <li>Octubre 8-9, 2022</li>
+              <li>To be confimed</li>
+              {/* <li>Octubre 8-9, 2022</li> */}
+              <li>To be confimed</li>
               <li>🟢 ENTRADAS DISPONIBLES</li>
             </ul>
           </div>

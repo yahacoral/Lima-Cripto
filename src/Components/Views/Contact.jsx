@@ -8,10 +8,14 @@ export default function Contact() {
 
   return (
     <>
+      <div  className={styles.bannerCategory}>
+        <h1>Contacto</h1>
+        <p>¿Necesitas ayuda? Comunícate con nuestro equipo.</p>
+      </div>
       <div className={styles.section}>
       <div className={styles.contact}>
-        <h1>¿Necesitas ayuda?</h1>
-        <p>Conversa con nosotros de lunes a viernes de 9:00 am a 8:00pm y sábado de 9:00 am a 6:00 pm.</p>
+        <h1>Horario de Atención</h1>
+        <p>De lunes a viernes de 9:00 am a 8:00pm y sábado de 9:00 am a 6:00 pm.</p>
 
         <ul>
           <li>

@@ -13,12 +13,9 @@ export default function AllSpeakers() {
 
   return (
     <>
-    <div  className={styles.bannerAllSpeakers}>
+    <div  className={styles.bannerCategory}>
       <h1>Speakers</h1>
-      <p>
-        ¡Hemos anunciado nuestra lista de speakers Bitcoin 2022! &nbsp;
-        <a href={instagram} className={styles.link}>Síguenos en Instagram,</a>&nbsp;continuamos confirmando speakers diariamente.
-      </p>
+      <p>¡Estáte atent@! Continuamos confirmando speakers diariamente.</p>
     </div>
     <div className={styles.speakerList}>
       {speakerList.map((speaker) => (

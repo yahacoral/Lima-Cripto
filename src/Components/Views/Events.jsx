@@ -6,9 +6,9 @@ import {capitalArray, fuckupNightsArray} from '../../Constants'
 export default function Gallery() {
   return (
     <>
-        <div className={styles.bannerEvents}>
+        <div className={styles.bannerCategory}>
           <h1>Eventos Pasados</h1>
-          <p>Conoce nuestras anteriores conferencias de bitcoin</p>
+          <p>Conoce nuestras anteriores conferencias de bitcoin.</p>
         </div>
         <div className={styles.events}>
           <div>

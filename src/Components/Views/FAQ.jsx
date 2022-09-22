@@ -54,10 +54,12 @@ export default function FAQ() {
 
   return (
     <>
+    <div  className={styles.bannerCategory}>
+        <h1>preguntas frecuentes</h1>
+        <p>¿Tienes preguntas? Nosotros tenemos respuestas.</p>
+    </div>
     <div className={styles.section}>
       <span>
-        <h3>¿Tienes preguntas?</h3>
-        <h1>Nosotros tenemos respuestas</h1>
         <h2>En esta sección encontrarás información sobre las preguntas más frecuentes. También puedes escribirnos a <a href={mail} target="_blank" rel="noreferrer" className={styles.link}>hablemos@limacripto.com</a></h2>
       </span>
 

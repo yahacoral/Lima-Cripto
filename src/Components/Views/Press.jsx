@@ -27,11 +27,11 @@ export default function Press() {
 
   return (
     <>
+      <div  className={styles.bannerCategory}>
+        <h1>Noticias</h1>
+        <p>Entérate de nuestras últimas actualizaciones de Lima Cripto.</p>
+      </div>
       <div className={styles.section}>
-        <span>
-        <h1>Mantente al día</h1>
-        <h2>Síguenos en nuestras redes y entérate de las últimas actualizaciones de Lima Cripto.</h2>
-        </span>
         <div className={styles.press}>
           <ThemeProvider theme={theme}>
             {newsArray.map((news) => (

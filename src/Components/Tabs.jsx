@@ -62,7 +62,7 @@ export default function BasicTabs() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box className={styles.tabBox} sx={{ width: '60%', margin:"2rem 0 4rem 0"}}>
+      <Box className={styles.tabBox} sx={{ width: '60%', margin:"0 0 4rem 0"}}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
             <Tab label="SÁBADO, OCTUBRE 8" {...a11yProps(0)} sx={{ width: '50%'}}/>
