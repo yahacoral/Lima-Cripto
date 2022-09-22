@@ -28,6 +28,10 @@
   color: white;
 }
 
+.banner a{
+  padding-right: 1.5rem;
+}
+
 .banner a:hover {
   color: white;
 }
@@ -906,7 +910,7 @@ padding: 1rem 2rem 4rem 2rem;
   }
 
   .mainFooter{
-    padding:  4.5rem 4rem  2rem 4rem ;
+    padding:  6rem 4rem  2rem 4rem ;
   }
 
   .press {
@@ -1002,7 +1006,7 @@ padding: 1rem 2rem 4rem 2rem;
   }
 
   .mainFooter{
-    padding:  4rem 4rem  2rem 4rem ;
+    padding:  6rem 4rem  2rem 4rem ;
   }
 
   .events{
@@ -1116,7 +1120,7 @@ padding: 1rem 2rem 4rem 2rem;
   }
 
   .mainFooter{
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 6rem 2rem 2rem 2rem;
   }
 
   .box{
