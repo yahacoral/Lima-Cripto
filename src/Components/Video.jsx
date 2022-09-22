@@ -12,7 +12,7 @@ export default function Video() {
             <h1>{videoTitle}</h1>
             <button onClick={()=>setShow(true)}>
                 <PlayIcon/>
-                <p>Ver video</p>
+                {/* <p>Ver video</p> */}
             </button>
           </div>
           { show &&

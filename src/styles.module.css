@@ -20,8 +20,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.8rem 2rem;
-  font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
   background-color: #0078c5;
@@ -68,18 +67,18 @@
   padding: 3rem 2rem 0 2rem; 
 }
 
-.title {
+/* .title {
+  font-family: "Titillium Web", sans-serif;
   font-size: 11vh;
   line-height: 0.75em;
   font-weight: 900;
   margin: 10px 0;
   letter-spacing: 3px;
-}
+} */
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.5em;
-  font-weight: 800;
   color: 
   #070706;
   padding-bottom: 1rem;
@@ -95,6 +94,7 @@
 
 .primaryButton,
 .secondaryButton {
+  font-family: "Titillium Web", sans-serif;
   border-radius: 0.5rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -102,7 +102,7 @@
   margin: 0.5rem;
   padding:1rem;
   width: 22rem;
-  font-size: 1.4em;
+  font-size: 1.25rem;
   letter-spacing: 2.1px;
   line-height: 1rem;
   color: white;
@@ -211,6 +211,7 @@
 }
 
 .poster h1 {
+  font-family: "Titillium Web", sans-serif;
   width: 85%;
   font-size: 3.5em;
   font-weight: 900;
@@ -261,6 +262,7 @@
 }
 
 .section h1 {
+  font-family: "Titillium Web", sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   letter-spacing: 0.1rem;
@@ -473,6 +475,7 @@
 }
 
  .bannerCategory h1{
+  font-family: "Titillium Web", sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
   line-height: 0.75em;
