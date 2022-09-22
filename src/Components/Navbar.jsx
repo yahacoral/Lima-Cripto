@@ -3,7 +3,7 @@ import styles from '../styles.module.css'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
 import LimaCriptoLogo from "../Assets/Logos/logo.png";
-import tickets from "../Assets/Img/ENTRADAS.png"
+import tickets from "../Assets/Img/ticket-2.png"
 import { ReactComponent as InstagramIcon } from "../Assets/Icons/instagram.svg";
 import { ReactComponent as LinkedinIcon } from "../Assets/Icons/linkedin.svg";
 // import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
@@ -22,10 +22,10 @@ import MenuItem from '@mui/material/MenuItem';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#587eeb',
+      main: '#0078c5',
     },
     secondary: {
-      main: '#292929',
+      main: '#070706',
     },
   },
 });

@@ -40,7 +40,7 @@ export default function AllSpeakers() {
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
           <IconButton aria-label="previous">
-            <a href={speaker.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{fill:'#587eeb', width:'2rem'}}/></a>
+            <a href={speaker.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{fill:'#0078c5', width:'2rem'}}/></a>
           </IconButton>
         </Box>
       </Box>

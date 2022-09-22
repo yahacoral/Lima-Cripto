@@ -15,7 +15,7 @@ export default function Sponsors() {
 
       <SponsorsCategories/>
       
-       <div className={styles.section} id={styles.partnersContainer}>
+       <div className={styles.section} id={styles.partnerscontainer2}>
           <div className={styles.partnersBox}>
             <span>
               <h1>Con el apoyo de</h1>

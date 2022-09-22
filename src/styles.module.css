@@ -1,9 +1,10 @@
 .app {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654098616/Lima-Cripto/iStock-531000658_copy_lwb96d.jpg) no-repeat center center fixed; 
+  background: url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992370/Lima-Cripto/PORTADA_WEB2X_h3gj16.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: right 0;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -18,12 +19,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   font-weight: 700;
   font-size: 1.15rem;
   text-transform: uppercase;
   text-align: center;
-  background-color: #587eeb;
+  background-color: #0078c5;
   color: white;
 }
 
@@ -31,8 +32,18 @@
   color: white;
 }
 
+.bannerBtn{
+  color: white;
+  position: absolute;
+  right: 2rem;
+  top: 0.8rem;
+  cursor: pointer;
+}
+
 .banner img {
   width: 8rem;
+  position: relative;
+  bottom: 5px;
 }
 
 /* Header */
@@ -48,6 +59,11 @@
   text-transform: uppercase;
 }
 
+.logoHeader{
+  width: 28rem;
+  padding: 3rem 2rem 0 2rem; 
+}
+
 .title {
   font-size: 11vh;
   line-height: 0.75em;
@@ -57,16 +73,19 @@
 }
 
 .subtitle {
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
+  color: 
+  #070706;
+  padding-bottom: 1rem;
 }
 
 .isotipo {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  background-color: #263663;
+  background-color:  #0078c5;
   margin-bottom: 8px;
 }
 
@@ -92,13 +111,13 @@
 }
 
 .primaryButton {
-  background-color: #587eeb;
-  border-bottom: 3px solid #3665e7;
+  background-color: #0078c5;
+  border-bottom: 3px solid #0065A3;
 }
 
 .secondaryButton {
-  background-color: #263663;
-  border-bottom: 3px solid #1c284a;
+  background-color: #fa6300;
+  border-bottom: 3px solid #CC5200;
 }
 
 /* Navbar */
@@ -120,7 +139,9 @@
 
 .logo {
   width: 10rem;
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 1rem 0;
+  position: relative;
+  left: 2rem;
 }
 
 .tickets:hover{
@@ -135,7 +156,7 @@
 
 .navbar button:hover,
 .navbar button:focus {
-  color: #587eeb;
+  color: #0078c5;
   background: none;
 }
 
@@ -147,11 +168,11 @@
 .social svg {
   width: 2rem;
   padding: 0.25rem;
-  fill: #051540;
+  fill: #070706;
 }
 
 .social svg:hover {
-  fill: #587eeb;
+  fill: #0078c5;
 }
 
 /* Home View */
@@ -170,7 +191,7 @@
 }
 
 .poster {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654099694/Lima-Cripto/lima-cripto-1_uqdbor.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -207,7 +228,7 @@
 .poster button svg {
   width: 7rem;
   height: 7rem;
-  color: #587eeb;
+  color: #0078c5;
   background: white;
   border-radius: 100%;
 }
@@ -225,7 +246,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #292929;
+  color: #070706;
 }
 
 .section span {
@@ -247,7 +268,7 @@
 .section h2 {
   line-height: 1em;
   font-weight: bold;
-  color: #587eeb;
+  color: #fa6300;
   font-size: 1.5rem;
   margin: 0;
   padding-bottom: 2rem;
@@ -259,7 +280,7 @@
   letter-spacing: 0.5px;
   font-size: 1.1em;
   line-height: 1.4em;
-  color: #292929;
+  color: #070706;
 }
 
 .section p {
@@ -290,8 +311,8 @@
 
 /* Metrics */
 .metrics {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654012259/Lima-Cripto/iStock-1063897324_copy_xqbkym.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -320,74 +341,87 @@
 
 /* Footer */
 .bannerFooter {
-  background-image: url("./Assets/Img/white-linen.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fe9100;
   margin: 0 6rem;
-  background-color: #587eeb;
   color: white;
-  min-height: 50vh;
 }
 
-.container {
-  background-image: url("./Assets/Img/white-linen.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.container1{
+  display: grid;
+  grid-template-columns: 10rem 1fr 10rem;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+}
+
+.container1 h1{
+  padding: 1rem;
+}
+
+.icon1 {
+  width: 15rem;
+}
+
+.icon3, .icon2 {
+  width: 9.5rem;
+}
+
+.container2 {
+  background-color: #fe9100;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 6rem 6rem 6rem;
+  padding: 0 6rem 4rem 6rem;
   position: relative;
-  bottom: -8rem;
+  top: 4rem;
   height: 100%;
   width: 100%;
-  background-color: #587eeb;
   z-index: 2;
 }
 
-.container h1 {
+.bannerFooter h1 {
   font-size: 2.5em;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 700;
   line-height: 1em;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
 
-.container ul {
+.container2 ul {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 0 0 0 ;
-  margin: 0;
   font-size: 1.15rem;
   font-weight: 700;
   text-align: left;
   letter-spacing: 0.5px;
 }
 
-.container li {
+.container2 li {
   padding: 0.5rem 0;
 }
 
-.container img {
+.container2 img {
   width: 3rem;
   height: 3rem;
 }
 
 .mainFooter {
   min-height: 10rem;
-  padding: 9rem 6rem 2rem 6rem;
-  background-color: #292929;
+  padding: 8rem 6rem 4rem 6rem;
+  background-color: #070706;
   color: white;
   z-index: 1;
 }
-.containerFooter {
-  padding: 2rem 0;
+.container2Footer {
   display: flex;
   justify-content: space-between;
 }
@@ -413,22 +447,22 @@
 }
 
 .socialIcon svg:hover{
-  fill: #587eeb;
+  fill: #0078c5;
 }
 
 .navlink:hover{
-  color: #587eeb;
+  color: #0078c5;
 }
 
 /* Agenda */
 .link {
   text-decoration: underline;
   cursor: pointer;
-  color: #587eeb;
+  color: #fa6300;
 }
 
 .link:hover {
-  color: #587eeb;
+  color: #fa6300;
 }
 .tabs {
   width: 80%;
@@ -444,7 +478,7 @@
 }
 
 .panel h1 {
-  color: #587eeb;
+  color: #0078c5;
   font-size: 2.25rem;
   text-align: center;
   padding: 1rem 0;
@@ -532,7 +566,7 @@
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: #263663;
+  background-color: #fa6300;
   margin-bottom: 8px;
 }
 
@@ -551,7 +585,7 @@
 .contact svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: #587eeb;
+  fill: #0078c5;
 }
 
 .contact h1{
@@ -568,13 +602,13 @@
 }
 
 .contact a{
-  color: #587eeb;
+  color: #0078c5;
   text-decoration: underline;
   font-weight: 700;
 }
 
 .contact a:hover{
-  color: #587eeb;
+  color: #0078c5;
 }
 
 /* Events */
@@ -583,11 +617,10 @@
   flex-direction: column;
   justify-content: center;
   min-height: 30vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100732/Lima-Cripto/JRC_4740__rrlxld.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:30% 70%;
   color: white;
   padding: 2rem 3rem ;
 }
@@ -617,7 +650,7 @@
   line-height: 0.9em;
   font-weight: 900;
   letter-spacing: 3px;
-  color: #587eeb;
+  color: #0078c5;
 }
 
 .events p{
@@ -658,7 +691,10 @@ max-height: 10rem;
   justify-content: center;
   align-items: center;
   min-height: 30vh;
-  background-color: #051540;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://res.cloudinary.com/dubbcjkfa/image/upload/v1662992329/Lima-Cripto/PATRON_gpvye2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 2rem 3rem ;
   text-align: center;
@@ -673,11 +709,11 @@ max-height: 10rem;
 }
 
 /* Sponsors */
-#partnersContainer{
+#partnerscontainer2{
 padding: 2rem 0;
 }
 
-#partnersContainer h1{
+#partnerscontainer2 h1{
   font-size: 2.5rem;
 }
 
@@ -721,7 +757,7 @@ padding: 1rem 2rem 4rem 2rem;
 }
 
 .titleSponsor img{
-  width: 14rem;
+  width: 15rem;
   padding-top: 1rem;
 }
 
@@ -729,7 +765,7 @@ padding: 1rem 2rem 4rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #587eeb;
+  background-color: #0078c5;
   padding: 4rem 0;
 }
 
@@ -739,7 +775,7 @@ padding: 1rem 2rem 4rem 2rem;
 }
 
 .secondarySponsor h1{
-  background-color: #292929;
+  background-color: #070706;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -754,7 +790,7 @@ padding: 1rem 2rem 4rem 2rem;
 }
 
 .secondarySponsor span img{
-  width: 65%;
+  width: 55%;
   margin: 0 auto;
   padding: 2rem  1rem;
 }
@@ -797,7 +833,7 @@ padding: 1rem 2rem 4rem 2rem;
     width: 13rem;
   }
 
-  .container ul {
+  .container2 ul {
     font-size: 1rem;
   }
 
@@ -833,15 +869,15 @@ padding: 1rem 2rem 4rem 2rem;
     grid-template-rows: 1fr 1fr;
   }
 
-  .container{
+  .container2{
     bottom: -4rem;
   }
 
-  .container h1{
+  .bannerFooter h1{
     font-size: 1.8rem;
   }
 
-  .container ul {
+  .container2 ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -895,6 +931,19 @@ padding: 1rem 2rem 4rem 2rem;
 
 
 @media (max-width: 768px) {
+  .logoHeader{
+    width: 22rem;
+  }
+
+  .container1{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .icon2, .icon3 {
+    display: none;
+  }
 
   .nav span{
     display: none;
@@ -938,7 +987,7 @@ padding: 1rem 2rem 4rem 2rem;
     padding: 0 2rem;
   }
 
-  .container{
+  .container2{
     padding: 0 2rem 3rem 2rem;
   }
 
@@ -986,6 +1035,9 @@ padding: 1rem 2rem 4rem 2rem;
 }
 
 @media (max-width: 420px) {
+  .logoHeader{
+    width: 20rem;
+  }
 
   .panel li div {
     width: 13rem;
@@ -1046,11 +1098,11 @@ padding: 1rem 2rem 4rem 2rem;
     padding: 1rem 0;
   }
 
-  .container{
+  .container2{
     padding: 0 2rem 2rem 2rem;
   }
 
-  .container h1{
+  .bannerFooter h1{
     font-size: 1.5rem;
   }
 

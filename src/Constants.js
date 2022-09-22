@@ -19,6 +19,14 @@ export const mail = "mailto:hablemos@limacripto.com"
 
 export const whatsapp = "https://api.whatsapp.com/send?phone=51956174788"
 
+export const logo = "https://res.cloudinary.com/dubbcjkfa/image/upload/v1663807798/Lima-Cripto/LOGO_ufux8k.svg"
+
+export const icon1 = "https://res.cloudinary.com/dubbcjkfa/image/upload/v1663001964/Lima-Cripto/icono-2_ywelvu.png"
+
+export const icon2 = "https://res.cloudinary.com/dubbcjkfa/image/upload/v1663809191/Lima-Cripto/icon2_otov1x.png"
+
+export const icon3 = "https://res.cloudinary.com/dubbcjkfa/image/upload/v1663809187/Lima-Cripto/icon3_wxsgo4.png"
+
 // Video Component
 export const videoTitle = "El evento más grande de Criptomonedas del Perú";
 
