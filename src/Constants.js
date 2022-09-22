@@ -33,7 +33,7 @@ export const videoTitle = "El evento más grande de Criptomonedas del Perú";
 // About Component
 export const aboutSubtitle = "Ya seas un emprendedor, desarrollador, innovador, o profesional disrumpiendo industrias, este evento es para ti."
 
-export const aboutDescription = "BITCONF PERU 2022 es una experiencia de dos días para quienes buscan una mayor libertad y soberanía individual. Nos vemos en Lima para la reunión más grande del mundo de bitcoiners. "
+export const aboutDescription = "BITCONF LATAM 2022 reúne a los principales agentes del ecosistema Cripto y Blockchain en Perú e Hispanoamérica con el fin de fomentar el nivel de adopción y sensibilización de la nueva economía digital. "
 
 export const aboutArray = 
   [{url:"https://res.cloudinary.com/dubbcjkfa/image/upload/v1654100028/Lima-Cripto/lima-cripto_u0yk89.jpg", alt:"first slide"},
