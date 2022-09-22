@@ -10,7 +10,7 @@ export default function About() {
         <div className={styles.videoBox}></div>
         <div className={styles.section}>
             <span>
-              <h1>La experiencia <br/> BITCONF PERÚ 2022</h1>
+              <h1>La experiencia <br/> BITCONF LATAM 2022</h1>
               <h2>{aboutSubtitle}</h2>
             </span>
             <div className={styles.description}>
@@ -19,9 +19,9 @@ export default function About() {
                 <p>
                   {aboutDescription} <br/> <br/>
                   <b>Fecha:</b> 
-                  8 y 9 de octubre de 2022 <br/>
+                  TO BE CONFIRMED <br/>
                   <b>Lugar:</b> 
-                  TO BE CONFIRMED, Lima, Perú.
+                  TO BE CONFIRMED
                 </p>
             </div>
 
